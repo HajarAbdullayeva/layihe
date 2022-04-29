@@ -1,0 +1,42 @@
+
+@import url(about.css);
+@import url(cards.css);
+@import url(footer.css);
+@import url(format.css);
+@import url(header.css);
+@import url(information.css);
+@import url(payment.css);
+@import url(service.css);
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: calc(100% - 242px);
+    margin: 0 auto;
+}
+
+
+/* Start of Media querie size for Tablet */
+@media (min-width : 834px) and (max-width : 1279px) {
+    .container{
+        width: calc(100% - 142px);
+    }
+}
+/* End of Media querie size for Tablet */
+
+/* Start of Media querie size for Phones */
+@media (max-width: 833px){
+    .container{
+        width: calc((100% / 12)*10);
+    }
+}
+/* End of Media querie size for phones */

@@ -1,0 +1,127 @@
+.payment {
+    background-color: #9DC9C8;
+    padding: 10% 5%;
+}
+
+.payment-heading {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 3rem;
+}
+
+.payment-price {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 25px
+}
+
+.payment-price_text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 3rem;
+}
+
+.payment-about {
+    display: flex;
+}
+
+.payment-about_text1, .payment-about_text2 {
+    width: 25%;
+    margin-right: 5rem;
+}
+
+.payment-about-heading {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.payment-about-body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Tablet mode */
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+    .payment {
+        padding: 8% 5%;
+    }
+    
+    .payment-heading {
+        font-size: 32px;
+        margin-bottom: 2rem;
+    }
+    
+    .payment-price {
+        font-size: 14px
+    }
+    
+    .payment-price_text {
+        font-size: 46px;
+        margin-bottom: 3rem;
+    }
+    
+    .payment-about {
+        display: flex;
+    }
+    
+    .payment-about_text1, .payment-about_text2 {
+        width: 30%;
+        margin-right: 3rem;
+    }
+    
+    .payment-about-heading {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    
+    .payment-about-body {
+        font-size: 12px;
+    }
+    
+}
+
+/* Mobile mode */
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+    .payment {
+        padding: 10%;
+    }
+    
+    .payment-heading {
+        font-size: 26px;
+        margin-bottom: 2rem;
+    }
+    
+    .payment-price {
+        font-size: 12px
+    }
+    
+    .payment-price_text {
+        font-size: 37px;
+        margin-bottom: 3rem;
+    }
+    
+    .payment-about {
+        display: flex;
+    }
+    
+    .payment-about_text1, .payment-about_text2 {
+        width: 50%;
+        margin-right: 1.5rem;
+    }
+    
+    .payment-about-heading {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    
+    .payment-about-body {
+        font-size: 12px;
+    }
+}

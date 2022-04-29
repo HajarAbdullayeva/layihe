@@ -1,0 +1,108 @@
+.cards {
+    margin-bottom: 121px;
+}
+
+.cards h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-bottom: 95px;
+}
+
+.cart {
+    background-color: white;
+    box-shadow: 0 4px 4px 0 grey;
+    border-radius: 30px;
+}
+
+.cart img {
+    width: 100%;
+}
+
+.text {
+    padding-bottom: 23px;
+    position: relative;
+}
+
+.text h2,
+.text p {
+    margin-left: 20px;
+    margin-right: 14px;
+}
+
+.text h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.cart:last-child .text h2 {
+    margin-bottom: 8px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 41px 37px;
+}
+
+/* @media screen and (max-width:834px) and (min-width:320px) {
+    .carts {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 30px;
+    }
+
+} */
+
+
+
+/* Start of Media querie size for Tablet */
+@media (min-width : 834px) and (max-width : 1279px) {
+    .cards {
+        margin-bottom: 52px;
+    }
+
+    .cards h1 {
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-bottom: 55px;
+    }
+    .carts{
+        grid-row-gap: 23px;
+        grid-column-gap: 21px;
+    }
+}
+
+
+/* Start of Media querie size for Phones */
+@media (max-width: 833px) {
+
+    .cards {
+        margin-bottom: 47px;
+    }
+
+    .cards h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-bottom: 35px;
+    }
+
+    .carts {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+}

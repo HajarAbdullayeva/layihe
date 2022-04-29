@@ -1,0 +1,262 @@
+#header {
+    margin-top: 21px;
+}
+
+#header .hero {
+    margin-top: 96px;
+}
+
+#header .hero-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .hero-list-row {
+    width: calc((100% / 12)*5);
+}
+
+#header .hero-list-row li a img {
+    margin-right: 5px;
+}
+
+#header .hero-list li a span {
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+}
+
+#header .hero-left {
+    width: calc((100% / 12)*6);
+}
+
+#header .hero-right {
+    width: calc((100% / 12)*4);
+}
+
+#header .hero-row {
+    display: flex;
+}
+
+#header .hero-heading {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+
+#header .hero-text {
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+#header .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#header .hero-right .hero-ellipse {
+    position: relative;
+    bottom: 20px;
+}
+
+#header .hero-right .hero-img {
+    z-index: 2;
+}
+
+#header .hero-right .hero-ellipse {
+    z-index: 1;
+}
+
+#header .hero-box {
+    background: #1E4681;
+    border-radius: 5px;
+    color: white;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#header .hero-quote-row {
+    display: flex;
+    margin-top: 67px;
+    justify-content: center;
+}
+
+#header .hero-box-wr {
+    width: calc((100% / 12)*5);
+    display: flex;
+}
+
+#header .quote-box {
+    position: relative;
+    right: calc((100% / 12)*2);
+}
+
+#header .quote {
+    font-size: 25px;
+    line-height: 130%;
+}
+
+
+#header .quote-author {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+}
+
+#header .information-right {
+    display: flex;
+    flex-direction: column;
+}
+
+#header .mobile-logo {
+    display: none;
+}
+
+/* Start of Media querie size for Tablet */
+@media (min-width : 834px) and (max-width : 1279px) {
+
+    #header .hero-heading {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+
+    #header .hero-right {
+        width: calc((100% / 12)*4)
+    }
+
+    #header .hero-right img {
+        width: 100%;
+    }
+
+    #header .hero-row:nth-of-type(2) {
+        justify-content: space-between;
+    }
+
+    #header .hero-list li a span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 115%;
+    }
+
+    #header .logo-img {
+        display: none;
+    }
+
+    #header .mobile-logo {
+        display: block;
+    }
+
+    #header .quote {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    #header .quote-author {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    #header .hero-text {
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    #header .hero-list-row li a img {
+        width: 17px;
+        height: 17px;
+    }
+
+    #header .hero {
+        margin-top: 57px;
+    }
+
+    #header .hero-quote-row {
+        margin-top: 50px;
+    }
+
+}
+
+/* End of Media querie size for Tablet */
+
+
+/* Start of Media querie size for Phones */
+@media (max-width: 833px) {
+    #header {
+        margin-top: 36px;
+    }
+
+    #header .hero-list-row {
+        width: calc((100% / 12)*10);
+    }
+
+    #header .hero {
+        margin-top: 44px;
+    }
+
+    #header .hero-list li a span {
+        font-size: 10px;
+        line-height: 115%;
+    }
+
+    #header .hero-list-row li a img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #header .hero-row {
+        flex-direction: column;
+    }
+
+    #header .hero-left {
+        width: calc((100% / 12)*9);
+    }
+
+    #header .hero-heading {
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+
+    #header .hero-text {
+        font-size: 10px;
+        line-height: 150%;
+    }
+
+    #header .hero-right {
+        width: calc((100% / 12)*5);
+        align-items: inherit;
+        margin-left: auto;
+    }
+
+    #header .hero-right .hero-ellipse {
+        bottom: 9px;
+    }
+
+    #header .hero-box-wr {
+        width: calc((100% / 12)*10);
+    }
+
+    #header .hero-quote-row {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #header .quote {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    #header .quote-author {
+        font-size: 12px;
+        line-height: 130%;
+        margin-top: 10px;
+    }
+
+}
+
+/* End of Media querie size for phones */
